@@ -1,0 +1,723 @@
+@media(max-width:1100px){
+    .testimonial p {
+        font-size: 21px;
+       
+    }
+    .like {
+        padding: 27px 0px;
+    }
+    .like h1 {
+        font-size: 30px;
+    }
+    .like h2 {
+        font-size: 30px;
+    }
+    .btn-view {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+    .btn-do {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-left: 17px;
+    }
+    .btn-dow {
+        font-size: 14px;
+        padding: 8px 14px;
+        margin-right: 27px;
+    }
+    .banner-img {
+        right: 0%;
+    }
+    .contact {
+        padding-bottom: 364px;
+    }
+    .form {
+        width: 87%;
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    .banner-row {
+        text-align: center;
+    }
+
+    .banner-text {
+        margin-top: 35px;
+        margin-bottom: 16px;
+    }
+
+    .banner-row h4 {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner-row h1 {
+        font-size: 38px;
+        margin: 5px 0px 15px;
+    }
+
+    .banner-row p {
+        letter-spacing: 0px;
+        margin-bottom: 34px;
+        font-size: 16px;
+    }
+
+    .btn-dow {
+        font-size: 18px;
+        padding: 9px 14px;
+        margin-right: 15px;
+    }
+
+    .btn-view {
+        font-size: 18px;
+        padding: 9px 14px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-row {
+        min-height: 83vh;
+    }
+
+    .banner-img-res {
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .feature-res {
+        margin-bottom: 30px;
+    }
+
+    .feature h2 {
+        margin: 3px 0px 0px;
+    }
+
+    .feature {
+        padding-bottom: 0px !important;
+    }
+
+    .feature .row {
+        padding-bottom: 10px !important;
+    }
+
+    .feature h5 {
+        letter-spacing: 1px;
+    }
+
+
+    .beautiful h5 {
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .beautiful h1 {
+        font-size: 36px;
+        margin-top: 4px;
+    }
+
+    .beautiful span {
+        margin-top: 3px;
+        margin-bottom: 12px !important;
+    }
+
+    .beautiful p {
+        margin: 10px 0px 20px;
+        font-size: 17px;
+    }
+
+    .jj {
+        padding: 26px 0px 23px;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .t {
+        margin-top: 32px;
+        justify-content: center;
+    }
+
+    .client {
+        height: 60px;
+        width: 60px;
+    }
+
+    .client-text {
+        margin-left: 23px;
+    }
+
+    .testimonial {
+        padding: 30px 0px;
+    }
+
+    .owl-dot {
+        margin: 26px 5px 0px;
+    }
+
+    .testimonial h3 {
+        font-size: 14px;
+    }
+
+    .testimonial h4 {
+        font-size: 11px;
+    }
+
+    .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .owl-dots .active span {
+        width: 9px;
+        height: 9px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-bottom: 6px;
+    }
+
+    .pt {
+        padding-top: 10px;
+    }
+
+    .like {
+        padding: 25px 0px;
+    }
+
+    .like h1 {
+        font-size: 24px;
+    }
+
+    .like h2 {
+        font-size: 24px;
+    }
+
+    .btn-do {
+        font-size: 18px;
+        padding: 9px 10px;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+    }
+
+    .price-table {
+        margin-top: 28px;
+    }
+
+    .price-section-res {
+        padding: 0px 0px 24px !important;
+    }
+
+    .price-section-re {
+        padding: 0px !important;
+    }
+
+    .price-section {
+        padding: 25px 0px;
+    }
+
+    .contact {
+        padding-bottom: 265px;
+    }
+
+    .contact-row {
+        padding-top: 0px !important;
+    }
+
+    .contact-col {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        padding: 26px 22px;
+        width: 90%;
+        bottom: -6%;
+    }
+
+    .form form {
+        text-align: end;
+    }
+
+    .form form input {
+        padding: 13px;
+    }
+
+    .form form input[type="submit"] {
+        padding: 7px 13px;
+        font-size: 12px;
+    }
+
+    .form form input::placeholder {
+        font-size: 16px;
+    }
+
+    .form form textarea::placeholder {
+        font-size: 16px;
+    }
+   
+
+    footer p {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 12px 0px;
+    }
+
+    footer ul li {
+        margin: 0px 10px;
+    }
+
+    footer ul li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-row {
+        text-align: center;
+    }
+
+    .banner-text {
+        margin-top: 35px;
+        margin-bottom: 16px;
+    }
+
+    .banner-row h4 {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner-row h1 {
+        font-size: 38px;
+        margin: 5px 0px 15px;
+    }
+
+    .banner-row p {
+        letter-spacing: 0px;
+        margin-bottom: 34px;
+        font-size: 16px;
+    }
+
+    .btn-dow {
+        font-size: 18px;
+        padding: 9px 14px;
+        margin-right: 15px;
+    }
+
+    .btn-view {
+        font-size: 18px;
+        padding: 9px 14px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-row {
+        min-height: 83vh;
+    }
+
+    .banner-img-res {
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .feature-res {
+        margin-bottom: 30px;
+    }
+
+    .feature h2 {
+        margin: 3px 0px 0px;
+    }
+
+    .feature {
+        padding-bottom: 0px !important;
+    }
+
+    .feature .row {
+        padding-bottom: 10px !important;
+    }
+
+    .feature h5 {
+        letter-spacing: 1px;
+    }
+
+    .beautiful-res {
+        text-align: center;
+    }
+
+    .beautiful h5 {
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .beautiful h1 {
+        font-size: 36px;
+        margin-top: 4px;
+    }
+
+    .beautiful span {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3px;
+        margin-bottom: 12px !important;
+    }
+
+    .beautiful p {
+        margin: 10px 0px 20px;
+        font-size: 17px;
+    }
+
+    .jj {
+        padding: 26px 0px 23px;
+        text-align: center;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .t {
+        margin-top: 32px;
+        justify-content: center;
+    }
+
+    .client {
+        height: 60px;
+        width: 60px;
+    }
+
+    .client-text {
+        margin-left: 23px;
+    }
+
+    .testimonial {
+        padding: 30px 0px;
+    }
+
+    .owl-dot {
+        margin: 26px 5px 0px;
+    }
+
+    .testimonial h3 {
+        font-size: 14px;
+    }
+
+    .testimonial h4 {
+        font-size: 11px;
+    }
+
+    .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .owl-dots .active span {
+        width: 9px;
+        height: 9px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-bottom: 6px;
+    }
+
+    .pt {
+        padding-top: 10px;
+    }
+
+    .like {
+        padding: 25px 0px;
+    }
+
+    .like h1 {
+        font-size: 24px;
+    }
+
+    .like h2 {
+        font-size: 24px;
+    }
+
+    .btn-do {
+        font-size: 18px;
+        padding: 9px 10px;
+        margin-left: 0px !important;
+        margin-top: 15px !important;
+    }
+
+    .price-table {
+        margin-bottom: 18px;
+        margin-top: 0;
+    }
+
+    .price-section-res {
+        padding: 0px 0px 24px !important;
+    }
+
+    .price-section-re {
+        padding: 0px !important;
+    }
+
+    .price-section {
+        padding: 25px 0px;
+    }
+
+    .contact {
+        padding-bottom: 455px;
+    }
+
+    .contact-row {
+        padding-top: 0px !important;
+    }
+
+    .contact-col {
+        margin-bottom: 30px;
+    }
+    .form form input {
+        padding: 8px;
+    }
+    .form form textarea::placeholder { 
+        font-size: 13px;
+    }
+    .form form input::placeholder { 
+        font-size: 13px;
+    }
+    .form form {
+        text-align: center;
+    }
+    .form form input[type="submit"] {
+        padding: 10px 47px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-row {
+        text-align: center;
+    }
+
+    .banner-text {
+        margin-top: 35px;
+        margin-bottom: 16px;
+    }
+
+    .banner-row h4 {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner-row h1 {
+        font-size: 32px;
+        margin: 5px 0px 15px;
+    }
+
+    .banner-row p {
+        letter-spacing: 0px;
+        margin-bottom: 34px;
+        font-size: 13px;
+    }
+
+    .btn-dow {
+        font-size: 16px;
+        padding: 9px 14px;
+        margin-right: 15px;
+    }
+
+    .btn-view {
+        font-size: 16px;
+        padding: 9px 14px;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-row {
+        min-height: 83vh;
+    }
+
+    .banner-img-res {
+        display: block;
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .feature-res {
+        margin-bottom: 30px;
+    }
+
+    .feature h2 {
+        margin: 3px 0px 0px;
+    }
+
+    .feature {
+        padding-bottom: 0px !important;
+    }
+
+    .feature .row {
+        padding-bottom: 10px !important;
+    }
+
+    .feature h5 {
+        letter-spacing: 1px;
+    }
+
+    .beautiful-res {
+        text-align: center;
+    }
+
+    .beautiful h5 {
+        letter-spacing: 1px;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .beautiful h1 {
+        font-size: 30px;
+        margin-top: 4px;
+    }
+
+    .beautiful span {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 3px;
+        margin-bottom: 12px !important;
+    }
+
+    .beautiful p {
+        margin: 10px 0px 20px;
+        font-size: 14px;
+    }
+
+    .jj {
+        padding: 26px 0px 23px;
+        text-align: center;
+    }
+
+    .testimonial p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .t {
+        margin-top: 32px;
+        justify-content: center;
+    }
+
+    .client {
+        height: 60px;
+        width: 60px;
+    }
+
+    .client-text {
+        margin-left: 23px;
+    }
+
+    .testimonial {
+        padding: 30px 0px;
+    }
+
+    .owl-dot {
+        margin: 26px 5px 0px;
+    }
+
+    .testimonial h3 {
+        font-size: 14px;
+    }
+
+    .testimonial h4 {
+        font-size: 11px;
+    }
+
+    .owl-dots .owl-dot span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .owl-dots .active span {
+        width: 9px;
+        height: 9px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-bottom: 6px;
+    }
+
+    .pt {
+        padding-top: 10px;
+    }
+
+    .like {
+        padding: 25px 0px;
+    }
+
+    .like-text {
+        text-align: center;
+    }
+
+    .like h1 {
+        font-size: 24px;
+    }
+
+    .like h2 {
+        font-size: 24px;
+    }
+
+    .btn-do {
+        font-size: 16px;
+        padding: 9px 14px;
+        margin: 0px !important;
+    }
+
+    .like-res {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 15px;
+    }
+
+    .price-table {
+        margin-bottom: 18px;
+        margin-top: 0;
+    }
+
+    .price-section-res {
+        padding: 0px 0px 24px !important;
+    }
+
+    .price-section-re {
+        padding: 0px !important;
+    }
+
+    .price-section {
+        padding: 25px 0px;
+    }
+
+    .contact {
+        padding-bottom: 500px;
+    }
+
+    .contact-row {
+        padding-top: 0px !important;
+    }
+
+    .contact-col {
+        margin-bottom: 30px;
+    }
+    .form form input[type="submit"] {
+        padding: 7px 13px;
+        font-size: 12px;
+    }
+   
+}

@@ -1,0 +1,747 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: url("../images/banner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::before {
+    width: 48%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after {
+    width: 48%;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+
+.bar {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+    border: 2px solid rgb(0, 142, 214);
+}
+
+.navbar-toggler:focus {
+    background-color: rgb(0, 142, 214);
+}
+.banner-img-res{
+    display: none;
+}
+.banner-row {
+    min-height: 94vh;
+    align-items: center;
+}
+
+.banner-img {
+    position: absolute;
+    bottom: 0px;
+    right: 14%;
+}
+
+.banner-row h4 {
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.banner-row h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin: 15px 0px 30px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.banner-row p {
+    color: rgb(153, 153, 153);
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 62px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.btn-dow {
+    background: rgb(0, 142, 214);
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 13px 27px;
+    margin-right: 27px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.btn-dow:hover,
+.btn-do:hover {
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+}
+
+.btn-view {
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid rgb(153, 153, 153);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 13px 27px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.btn-view:hover {
+    background: rgb(0, 142, 214);
+    border: 1px solid rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.feature h5 {
+    color: rgb(0, 142, 214);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.feature h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+}
+
+.feature span {
+    display: block;
+    height: 2px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.feature span::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    left: 0px;
+    bottom: -5px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.feature span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    right: 0px;
+    bottom: -5px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.feature:hover.feature span::before,
+.feature:hover.feature span::after {
+    width: 48%;
+}
+
+.feature h2 {
+    text-align: center;
+    margin: 20px 0px 15px;
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.feature p {
+    text-align: center;
+    color: rgb(153, 153, 153);
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.feature-icon {
+    height: 90px;
+    width: 90px;
+    border: 1px solid rgb(240, 240, 240);
+    text-align: center;
+    line-height: 90px;
+    margin: auto;
+    border-radius: 50%;
+    font-size: 32px;
+    color: rgb(0, 142, 214);
+}
+
+.span-section span {
+    display: block;
+    background-color: rgb(237, 237, 237);
+    height: 1px;
+    width: 100%;
+    margin: auto;
+}
+
+.beautiful h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 142, 214);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.beautiful h1 {
+    color: rgb(26, 26, 26);
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.beautiful span {
+    display: block;
+    height: 2px;
+    width: 150px;
+    position: relative;
+}
+
+.beautiful span::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 142, 214);
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    bottom: -5px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.beautiful span::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(0, 142, 214);
+    height: 100%;
+    width: 0%;
+    right: 0px;
+    bottom: -5px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.beautiful:hover.beautiful span::before,
+.beautiful:hover.beautiful span::after {
+    width: 48%;
+}
+
+.beautiful p {
+    color: rgb(153, 153, 153);
+    margin: 10px 0px 20px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.beautiful ul {
+    list-style: none;
+}
+
+.beautiful ul li {
+    display: flex;
+    align-items: center;
+    color: rgb(27, 27, 27);
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    color: rgb(0, 142, 214);
+}
+
+.jj {
+    align-items: center;
+    padding: 73px 0px 23px;
+}
+
+.easy {
+    background: rgb(242, 242, 242);
+}
+
+.testimonial {
+    background-image: url("../images/banner2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.testimonial h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 142, 214);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.testimonial h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0px 3px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.span2 {
+    display: flex;
+    width: 9%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.span2 span {
+    display: block;
+    background-color: rgb(0, 142, 214);
+    height: 2px;
+    width: 48%;
+    margin: 10px 0px 15px;
+}
+.testimonial:hover span::before{
+    width: 48%;
+}
+.testimonial:hover span::after{
+    width: 48%;
+}
+
+.testimonial p {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-style: italic;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+}
+
+.testimonial h3 {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.testimonial h4 {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.t {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.client-text {
+    text-align: left;
+    margin-left: 14px;
+}
+
+.client {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    display: flex;
+    justify-content: center;
+}
+
+.owl-dot {
+    margin: 60px 5px;
+}
+
+.owl-dots .owl-dot span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 50px;
+}
+
+.owl-dots .active span {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.like {
+    background-color: rgb(21, 20, 26);
+    padding: 50px 0px;
+}
+
+.like h1 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+    display: inline;
+}
+
+.like h2 {
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 300;
+    font-family: "Source Sans Pro", sans-serif;
+    display: inline;
+}
+
+.btn-do {
+    background: rgb(0, 142, 214);
+    text-transform: uppercase;
+    font-size: 18px;
+    border: 1px solid rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 13px 27px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 30px;
+}
+
+.price-section {
+    padding: 50px 0;
+}
+
+.price-section h2 {
+    color: rgb(21, 20, 26);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 5px 0px 3px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.price-section h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 142, 214);
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.i {
+    display: block;
+    height: 2px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+}
+
+.i::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    left: 0px;
+    bottom: -5px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.i::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0px;
+    right: 0px;
+    bottom: -5px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.price-section:hover .i::before,
+.price-section:hover .i::after {
+    width: 48%;
+}
+
+.price-table {
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.price-table h2 {
+    font-size: 24px;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    transition: all 0.4s ease-in-out 0s;
+    margin: 0px;
+}
+
+.price-table p {
+    padding: 35px 0px;
+    color: rgba(153, 153, 153, 0.6);
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+}
+
+.price-table p span {
+    color: rgb(0, 142, 214);
+}
+
+.price sup {
+    font-size: 33px;
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.price h1 {
+    font-size: 63px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.price h3 {
+    font-size: 18px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.btn-price {
+    margin-bottom: 30px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px 25px;
+    color: rgb(0, 142, 214);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.price {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    transition: all 0.4s ease-in-out 0s;
+    padding: 20px 0px;
+}
+
+.price-table:hover.price-table h2 {
+    color: rgb(0, 142, 214);
+}
+
+.price-table:hover .price {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.price-table:hover .price h3 {
+    color: rgb(255, 255, 255);
+}
+
+.price-table:hover .btn-price {
+    background: rgb(0, 142, 214);
+    border: 1px solid rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.contact {
+    background-color: rgb(237, 237, 237);
+    position: relative;
+    padding-bottom: 400px;
+}
+
+.contact i {
+    color: rgb(0, 142, 214);
+    font-size: 27px;
+}
+
+.contact p {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    margin-top: 19px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+}
+
+.form {
+    background: rgb(21, 20, 26);
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 46%;
+    bottom: -12%;
+}
+.form form{
+    text-align: end;
+}
+.form form input {
+    background: transparent;
+    border: 1px solid rgb(68, 67, 72);
+    padding: 14px;
+    margin: -1px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.form form input:focus {
+    background: transparent;
+    border: 1px solid rgb(68, 67, 72);
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
+
+.form form input::placeholder {
+    color: rgb(80, 79, 82);
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.form form input[type="submit"] {
+    background: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    border: 1px solid rgb(0, 142, 214);
+}
+
+.form form input[type="submit"]:hover {
+    background: transparent;
+    border: 1px solid rgb(68, 67, 72);
+    color: rgb(0, 142, 214);
+}
+
+.form form textarea {
+    background: transparent;
+    border: 1px solid rgb(68, 67, 72);
+    color: rgb(255, 255, 255);
+}
+
+.form form textarea:focus {
+    background: transparent;
+    border: 1px solid rgb(68, 67, 72);
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+}
+
+.form form textarea::placeholder {
+    color: rgb(80, 79, 82);
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+iframe {
+    display: block;
+}
+
+footer {
+    background-color: rgb(21, 20, 26);
+    padding: 25px 0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0px 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: rgb(68, 67, 72);
+    font-size: 22px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+footer ul li a:hover {
+    color: rgb(0, 142, 214);
+}
+
+footer p {
+    text-align: center;
+    color: rgb(68, 67, 72);
+    font-weight: 600;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 5px 0px;
+}
