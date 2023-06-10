@@ -1,1 +1,1 @@
-# lucid-responsive
+ https://only1tarunno.github.io/lucid-responsive/
